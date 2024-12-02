@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88bd9647-0e98-4bf8-9328-bdd70c5705f5" name="Changes" comment="" />
+    <list default="true" id="88bd9647-0e98-4bf8-9328-bdd70c5705f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EECS 553/Stock Market Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EECS 553/data_preprocessing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EECS 553/price_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EECS 553/vol_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version1/Stock Market Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version1/read_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version1/ret.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version1/train_trf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version1/vol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/exp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/layers/Embed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/layers/SelfAttention_Family.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/layers/Transformer_EncDec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/layers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/data_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/models/Transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/models/Transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/run.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -24,27 +43,33 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2pXJWYVuoYLt11evOREL9poVXSE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Transformer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_factory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yufanzhang/PycharmProjects/Transformers4TimeSeries/EECS 553&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Transformer (1).executor": "Run",
+    "Python.Transformer.executor": "Run",
+    "Python.data_factory.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yufanzhang/PycharmProjects/Transformers4TimeSeries/EECS 553",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EECS 553" />
@@ -53,9 +78,35 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EECS 553" />
+      <recent name="$PROJECT_DIR$/EECS 553/models" />
+      <recent name="$PROJECT_DIR$/Informer2020/models" />
+      <recent name="$PROJECT_DIR$/EECS 553/data_provider" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.Transformer (1)">
+    <configuration name="Transformer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Transformers4TimeSeries" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EECS 553/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EECS 553/models/Transformer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Transformer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Transformers4TimeSeries" />
       <option name="ENV_FILES" value="" />
@@ -125,8 +176,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Transformers4TimeSeries" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EECS 553/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EECS 553/models/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Transformer (1)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.data_factory" />
         <item itemvalue="Python.Transformer" />
@@ -150,16 +226,22 @@
       <option name="presentableId" value="Default" />
       <updated>1732906518752</updated>
       <workItem from="1732906521113" duration="1342000" />
-      <workItem from="1732907881791" duration="10943000" />
+      <workItem from="1732907881791" duration="11543000" />
+      <workItem from="1732925920409" duration="39143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$data_factory.coverage" NAME="data_factory Coverage Results" MODIFIED="1732907113693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer/data_provider" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$Transformer.coverage" NAME="Transformer Coverage Results" MODIFIED="1732906959473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer/models" />
+    <SUITE FILE_PATH="coverage/Transformers4TimeSeries$Transformer__1_.coverage" NAME="Transformer (1) Coverage Results" MODIFIED="1733021806161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553/models" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$run.coverage" NAME="run Coverage Results" MODIFIED="1732909775232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer" />
+    <SUITE FILE_PATH="coverage/Transformers4TimeSeries$test.coverage" NAME="test Coverage Results" MODIFIED="1733020545559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553/models" />
   </component>
 </project>
