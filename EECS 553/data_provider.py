@@ -53,14 +53,16 @@ for i in range(window_size, n_dates):
     cur_dataset = TimeSeriesDataset(window_X, window_y, start_date, n_stocks)
     all_dataset = all_dataset + cur_dataset if all_dataset is not None else cur_dataset
 
-
 n_total = len(all_dataset)
 train_size = int(0.7 * n_total)
 valid_size = int(0.2 * n_total)
 test_size = n_total - train_size - valid_size
-dataloader_train, dataloader_valid, dataloader_test =\
+dataset_train, dataset_valid, dataset_test = \
     torch.utils.data.random_split(all_dataset, [train_size, valid_size, test_size])
-# # Returns [batch_size, window_size, n_features] and [batch_size, horizon] from a random sector
 
 batch_size = 32
-
+dataloader_train, dataloader_valid, dataloader_test = \
+    DataLoader(dataset_train, batch_size=batch_size, shuffle=True), \
+        DataLoader(dataset_valid, batch_size=batch_size, shuffle=True), \
+        DataLoader(dataset_test, batch_size=batch_size, shuffle=True)
+# Returns [batch_size, window_size, n_features] and [batch_size, horizon] from a random sector
