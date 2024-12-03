@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bd9647-0e98-4bf8-9328-bdd70c5705f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EECS 553/Transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EECS 553/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EECS 553/train.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EECS 553/models/Transformer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EECS 553/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EECS 553/run.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/Transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/Transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/data_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/data_preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/data_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,7 @@
       <workItem from="1732907881791" duration="11543000" />
       <workItem from="1732925920409" duration="39143000" />
       <workItem from="1733099523100" duration="24493000" />
-      <workItem from="1733187899766" duration="22483000" />
+      <workItem from="1733187899766" duration="24724000" />
     </task>
     <servers />
   </component>
