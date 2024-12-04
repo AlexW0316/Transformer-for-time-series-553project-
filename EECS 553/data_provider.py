@@ -43,12 +43,11 @@ X = torch.tensor(
 y = torch.tensor(price_df.values)  # [n_dates, n_stocks]
 
 window_size = 96
-horizon = 1
 
 all_dataset = None
 for i in range(window_size, n_dates):
     window_X = X[i - window_size:i, :, :]  # [window_size, n_stocks, n_features (=2)]
-    window_y = y[i:i + horizon, :]  # [horizon, n_stocks]
+    window_y = y[i + 20: window_size + i + 20, :]  # [horizon, n_stocks]  todo:
     start_date = dates[i]
     cur_dataset = TimeSeriesDataset(window_X, window_y, start_date, n_stocks)
     all_dataset = all_dataset + cur_dataset if all_dataset is not None else cur_dataset
@@ -62,5 +61,5 @@ dataset_train, dataset_valid = \
 batch_size = 32
 dataloader_train, dataloader_valid = \
     DataLoader(dataset_train, batch_size=batch_size, shuffle=True), \
-    DataLoader(dataset_valid, batch_size=batch_size, shuffle=True), \
-# Returns [batch_size, window_size, n_features] and [batch_size, horizon] from a random sector
+        DataLoader(dataset_valid, batch_size=batch_size, shuffle=True), \
+    # Returns [batch_size, window_size, n_features] and [batch_size, horizon] from a random sector
