@@ -83,6 +83,7 @@ class GPT(nn.Module):
             wpe=nn.Embedding(config.block_size, config.n_embd),  # positional encoding
             h=nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
             ln_f=nn.LayerNorm(config.n_embd),
+            final_linear = nn.Linear(config.n_embd, 1)
         ))
 
         # # weight sharing scheme
@@ -112,4 +113,5 @@ class GPT(nn.Module):
         for block in self.transformer.h:
             y = block(y)
         y = self.transformer.ln_f(y)
+        y = self.transformer.final_linear(y)
         return y
