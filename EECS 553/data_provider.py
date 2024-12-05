@@ -54,7 +54,9 @@ for i in range(window_size, n_dates - (window_size + 20)):
     all_dataset.append(cur_dataset)
 all_dataset = ConcatDataset(all_dataset)
 
+
 n_total = len(all_dataset)
+print(n_total)
 train_size = int(0.7 * n_total)
 valid_size = n_total - train_size
 dataset_train, dataset_valid = \
@@ -65,3 +67,6 @@ dataloader_train, dataloader_valid = \
     DataLoader(dataset_train, batch_size=batch_size, shuffle=True), \
         DataLoader(dataset_valid, batch_size=batch_size, shuffle=True), \
     # Returns [batch_size, window_size, n_features] and [batch_size, horizon] from a random sector
+
+for i, value in enumerate(dataloader_train):
+    print(value)

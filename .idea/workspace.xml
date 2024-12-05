@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88bd9647-0e98-4bf8-9328-bdd70c5705f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EECS 553/Transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/Transformer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EECS 553/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EECS 553/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/data_provider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EECS 553/train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EECS 553/train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +227,7 @@
       <workItem from="1732907881791" duration="11543000" />
       <workItem from="1732925920409" duration="39143000" />
       <workItem from="1733099523100" duration="24493000" />
-      <workItem from="1733187899766" duration="52694000" />
+      <workItem from="1733187899766" duration="54946000" />
     </task>
     <servers />
   </component>
@@ -254,7 +253,7 @@
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$Transformer.coverage" NAME="Transformer Coverage Results" MODIFIED="1732906959473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer/models" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$Transformer__1_.coverage" NAME="Transformer (1) Coverage Results" MODIFIED="1733021806161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553/models" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$run.coverage" NAME="run Coverage Results" MODIFIED="1732909775232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer" />
-    <SUITE FILE_PATH="coverage/Transformers4TimeSeries$data_provider.coverage" NAME="data_provider Coverage Results" MODIFIED="1733373739783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553" />
+    <SUITE FILE_PATH="coverage/Transformers4TimeSeries$data_provider.coverage" NAME="data_provider Coverage Results" MODIFIED="1733419540431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$test.coverage" NAME="test Coverage Results" MODIFIED="1733020545559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553/models" />
   </component>
 </project>
