@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="88bd9647-0e98-4bf8-9328-bdd70c5705f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vanilla_transformer/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vanilla_transformer/data_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vanilla_transformer/train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Vanilla_transformer/train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Python.Transformer (1).executor": "Run",
     "Python.Transformer.executor": "Run",
     "Python.data_factory.executor": "Run",
+    "Python.data_provider (1).executor": "Run",
     "Python.data_provider.executor": "Run",
     "Python.run.executor": "Run",
     "Python.test.executor": "Run",
@@ -79,7 +82,7 @@
       <recent name="$PROJECT_DIR$/EECS 553/data_provider" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_provider">
+  <component name="RunManager" selected="Python.data_provider (1)">
     <configuration name="Transformer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Transformers4TimeSeries" />
       <option name="ENV_FILES" value="" />
@@ -103,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data_provider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Transformers4TimeSeries" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,12 +115,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FEDformer/data_provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vanilla_transformer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FEDformer/data_provider/data_factory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vanilla_transformer/data_provider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_provider (1)" />
         <item itemvalue="Python.data_provider" />
         <item itemvalue="Python.Transformer (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.data_factory" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,7 @@
       <workItem from="1732907881791" duration="11543000" />
       <workItem from="1732925920409" duration="39143000" />
       <workItem from="1733099523100" duration="24493000" />
-      <workItem from="1733187899766" duration="80837000" />
+      <workItem from="1733187899766" duration="83075000" />
     </task>
     <servers />
   </component>
@@ -253,5 +256,6 @@
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$run.coverage" NAME="run Coverage Results" MODIFIED="1732909775232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FEDformer" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$data_provider.coverage" NAME="data_provider Coverage Results" MODIFIED="1733445833293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553" />
     <SUITE FILE_PATH="coverage/Transformers4TimeSeries$test.coverage" NAME="test Coverage Results" MODIFIED="1733020545559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EECS 553/models" />
+    <SUITE FILE_PATH="coverage/Transformers4TimeSeries$data_provider__1_.coverage" NAME="data_provider (1) Coverage Results" MODIFIED="1733672537838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Vanilla_transformer" />
   </component>
 </project>
